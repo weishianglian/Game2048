@@ -4,13 +4,13 @@ My 2048 game is played on a 4x4 grid (16 squares) and started with 1 or 2 random
 
 In the terminal, it shows the grid and squares on the screen and there are some command such as move directions, undo, restart, save and load. The player can key in the character corresponded to its correspond abbreviation like (w), (s), (a), (d), (u), (r), (v), (l) by clicking enter. And there is a display message between the board and the control panel. Before staring the game, the player need to enter your for record your score and results, once the player save the game and it can be loaded any time when key in 'l'. Even the game reopened, when the player types the previous name, the game can be continued from previous record saved by the player.
 
-![fig1](images/fig1)  
+![fig1](images/fig1.png)  
 Fig 1. Showing the message: saved
 
-![fig2](images/fig2)  
+![fig2](images/fig2.png)  
 Fig 2. Showing the message: win
 
-![fig3](images/fig3)  
+![fig3](images/fig3.png)  
 Fig 3. Showing the message: game over
 
 ## Approach
@@ -19,7 +19,7 @@ Because I played 2048 before, I find that this game are composed of a grid board
 ## Issues Faced
 The aim of my coursework is making this 2048 game be a object-oriented programme. Therefore, I implement this game with creating a "Square" class which contains two variables and their mutator function to control changes. Secondly, I create a "Board" class to do mainly operations of this game such as drawing the grid on the terminal, detecting input from the player and  implementing the logic of this game. Thirdly, I create a "Player" class which contains the player's name and score. Moreover, I implement a database connection using sqlite3 to save or load the game record include CRUD manipulation. Finally, I create a "PlayBoard" class to inherit "Board" class for combining "Player" class to implement save/load functions. Furthermore, I create a header called "2048.h" included lots of STL library to complete this game.
 
-![fig4](images/fig4)
+![fig4](images/fig4.png)
 Fig 4. The Class Diagram (UML) of my programme structure  
 
 ## Function Explanation  
